@@ -3,8 +3,8 @@ package Zone.util;
 import com.badlogic.gdx.graphics.Texture;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 
-import static Zone.Shameimaru.makeOutlinePath;
-import static Zone.Shameimaru.makeRelicPath;
+import static Zone.Zone.makeOutlinePath;
+import static Zone.Zone.makeRelicPath;
 
 public class RelicInfo {
     public String relicName;
