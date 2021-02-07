@@ -1,0 +1,10 @@
+{
+  "${ModID}:Dedan": {
+    "MOVES": [
+      "Minute Hand",
+      "Hour Hand",
+      "Sweep Hand"
+    ],
+    "NAME": "Dedan"
+  }
+}

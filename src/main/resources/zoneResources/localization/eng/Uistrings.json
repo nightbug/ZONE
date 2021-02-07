@@ -1,2 +1,10 @@
 {
+  "${ModID}:ZONE": {
+    "TEXT": [
+      "ZONE ???",
+      "Act 1",
+      "In the distance, a place different from where you've explored looms in the balance. NL You feel like it's a place you #pshouldn't #pbe, but yet @morbid@ @curiosity@ beckons you to come closer, and ~closer,~ and @closer.@ NL You can barely control your curiosity, so you must make a decision before your #rinstincts take over.",
+      "Explore, even though you shouldn't?"
+    ]
+  }
 }
