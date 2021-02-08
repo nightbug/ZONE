@@ -2,6 +2,8 @@ package Zone;
 
 import Zone.dungeons.ZONE;
 import Zone.monsters.boss.Dedan;
+import Zone.monsters.boss.Enoch;
+import Zone.monsters.boss.Japhet;
 import basemod.AutoAdd;
 import basemod.BaseMod;
 import basemod.ModLabeledToggleButton;
@@ -108,6 +110,8 @@ public class Zone implements
     public void receivePostInitialize() {
         ZONE zoneAct = new ZONE();
         zoneAct.addBoss(Dedan.ID, (BaseMod.GetMonster)Dedan::new, "zoneResources/images/monsters/boss/dedan/dedan.png", "zoneResources/images/monsters/boss/dedan/dedan_outline.png");
+        zoneAct.addBoss(Japhet.ID, (BaseMod.GetMonster)Japhet::new, "zoneResources/images/monsters/boss/japhet/japhet.png", "zoneResources/images/monsters/boss/japhet/japhet_outline.png");
+        zoneAct.addBoss(Enoch.ID, (BaseMod.GetMonster)Enoch::new, "zoneResources/images/monsters/boss/enoch/enoch.png", "zoneResources/images/monsters/boss/enoch/enoch_outline.png");
 
         zoneAct.addAct(Exordium.ID);
     }

@@ -6,5 +6,21 @@
       "Sweep Hand"
     ],
     "NAME": "Dedan"
+  },
+  "${ModID}:Japhet": {
+    "MOVES": [
+      "Minute Hand",
+      "Hour Hand",
+      "Sweep Hand"
+    ],
+    "NAME": "Japhet"
+  },
+  "${ModID}:Enoch": {
+    "MOVES": [
+      "Minute Hand",
+      "Hour Hand",
+      "Sweep Hand"
+    ],
+    "NAME": "Enoch"
   }
 }
